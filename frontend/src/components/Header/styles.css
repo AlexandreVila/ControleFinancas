@@ -1,11 +1,18 @@
 .container{
-    height: 20.9px;
-    text-align: left;
+
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 91px;
+    height: 50px;
+    width: 1116px;
+
+
 }
 .title_header{
-    margin-top: 91px;
-    margin-left: 120px;
     font-style: normal;
+    font-weight: 700;
     font-size: 24px;
     line-height: 36px;
     color: #0E1227;

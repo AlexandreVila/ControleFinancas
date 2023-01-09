@@ -1,0 +1,16 @@
+.container_body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 536px;
+    width: 1116px;
+}
+.container_section_1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.container_section_2{
+    display: flex;
+    margin-top: 25px;
+}

@@ -1,11 +1,7 @@
 .container_resume{
-    box-sizing: border-box;
-
-    position: absolute;
     width: 583px;
     height: 362px;
-    left: 658px;
-    top: 159px;
+
 
     background: #FFFFFF;
     border: 2px solid #ECEEF7;

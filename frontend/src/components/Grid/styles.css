@@ -1,11 +1,7 @@
 .container_grid{
-    box-sizing: border-box;
-
-    position: absolute;
     width: 1116px;
     height: 159px;
-    left: 125px;
-    top: 546px;
+
 
     background: #FFFFFF;
     border: 2px solid #ECEEF7;

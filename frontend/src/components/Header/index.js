@@ -4,7 +4,7 @@ import './styles.css';
 const Header = () => {
   return (
       <div className='container'>
-        <div className='title_header'><b>Controle de financas</b></div>
+        <div className='title_header'>CONTROLE DE CAIXA</div>
       </div>
   );
 };
