@@ -1,13 +1,11 @@
 import React from 'react'
-import * as C from "./styles";
+import './styles.css';
 
 const Header = () => {
   return (
-    <C.Container>
-      <C.Header>
-        <C.Title>Controle Financeiro</C.Title>
-      </C.Header>
-    </C.Container>
+      <div className='container'>
+        <div className='title_header'><b>Controle de financas</b></div>
+      </div>
   );
 };
 
