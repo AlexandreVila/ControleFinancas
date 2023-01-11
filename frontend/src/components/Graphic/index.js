@@ -13,8 +13,8 @@ export default function Graphic({ item }) {
    
   return (
     <BarChart
-      width={500}
-      height={300}
+      width={550}
+      height={250}
       data={item}
       margin={{
         top: 5,

@@ -11,3 +11,10 @@
 td{
     font-weight: bold;
 }
+.button_delete{
+    cursor: pointer;
+}
+.td_grid{
+    display: flex;
+    margin-left: 30px;
+}

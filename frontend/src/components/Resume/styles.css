@@ -1,9 +1,50 @@
 .container_resume{
     width: 583px;
     height: 362px;
-
-
     background: #FFFFFF;
     border: 2px solid #ECEEF7;
     border-radius: 6px;
+}
+.title_label{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.4024px;
+    line-height: 34px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+.title_resume{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.squad_roxo{
+    width: 16px;
+    height: 16px;
+    background-color:#5932EA ;
+    border-radius: 2px;
+}
+.squad_verm{
+    width: 16px;
+    height: 16px;
+    background-color:#EA3232 ;
+    border-radius: 2px;
+}
+.legenda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 14px;
+}
+.legend_resume{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.label_squad{
+    padding-left: 5px;
 }

@@ -1,21 +1,16 @@
 .form_container{
-
     width: 458px;
     height: 362px;
-
-
     background: #FFFFFF;
     border: 2px solid #ECEEF7;
     border-radius: 6px;
 }
-
 .input_container_flex{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 26px;
 }
-
-.input{
+.input_form{
     border-radius: 10px;
     padding: 10px 10px;
     border: 1px solid #7A869A;
@@ -26,6 +21,14 @@
     font-weight: 400;
     line-height: 24px;
 }
+.input_form::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7A869A;
+  }
 .title_form{
     font-style: normal;
     font-weight: 700;
@@ -33,35 +36,111 @@
     line-height: 34px;
     letter-spacing: 0.01em;
     color: #000000;
+    padding: 30px 35px 0px 35px;
 }
-.label{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0.01em;
-
-    color: #000000;
-}
-.avo{
+.container_inputs_form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 25px 30px 30px 35px;
 }
-
-.filho{
+.input_container_form{
     display: flex;
     flex-direction: column;
 }
-.tio{
+.input_container_flex_form_2{
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-top: 16px;
 }
-
-.label_tipo_movimentacao{
+.option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 3px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+  }
+  .option-input:checked {
+    background: #0881A3;
+  }
+  .option-input:checked::before {
+    width: 16px;
+    height: 16px;
+    display:flex;
+    content: '\f00c';
+    font-size: 8px;
+    font-weight:bold;
+    position: absolute;
+    align-items:center;
+    justify-content:center;
+    font-family:'Font Awesome 5 Free';
+  }
+  .option-input.radio {
+    border-radius: 50%;
+  }
+  .option-input.radio::after {
+    border-radius: 50%;
+  }
+  .label_form{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 3px;
+  }
+  .container_buttons_radios{
     display: flex;
-    right: 0 !important;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+.radios_container{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+}
+.input_container_flex_2{
+    display: flex;
+    flex-direction: column;
+}
+.label_radio{
+    font-size: 13px;
+}
+.radio_container_item{
+    display: flex;
+}
+.button_form{
+    width: 138px;
+    height: 40px;
+    background: #0889A3;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    transition-duration: 0.4s;
+    margin-top: 8px;
+}
+.button_form:hover {
+    background-color: #2eb3ce; /* Green */
+    color: white;
 }

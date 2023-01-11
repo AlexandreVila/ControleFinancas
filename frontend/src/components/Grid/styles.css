@@ -29,9 +29,18 @@ tbody {
     overflow-x: none;
     max-height: 119px;
 }
-
+tbody::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color:#C7CAD9; 
+}
+  
+tbody::-webkit-scrollbar-thumb {
+      background: #0889A3;
+}
 table{
     width: 100%;
+    padding: 0px 30px;
 }
 th{
     font-weight: normal;
